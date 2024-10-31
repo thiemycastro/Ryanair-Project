@@ -32,7 +32,7 @@ describe("Teste Técnico Ryanair", () => {
     //Preencher dados do passageiro e clicar no botão "Continuar"
     cy.get('.dropdown__toggle').click()
     cy.get('[data-ref="title-item-0"] > .dropdown-item__link > .dropdown-item__content > .dropdown-item__label').click()
-    cy.get('[data-ref="pax-details__name"]').type('Thierry')
+    cy.get('[data-ref="pax-details__name"]').type('Thiemy')
     cy.get('[data-ref="pax-details__surname"]').should('be.visible').type('Castro')
     cy.get('.continue-flow__button').click()
 
