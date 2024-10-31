@@ -25,4 +25,4 @@ Execute o Cypres: npx cypress open
 
 ### Status
 - **Data do Teste:** 01/08/2024
-- **Testador:** Thierry Castro
+- **Testador:** Thiemy Castro
